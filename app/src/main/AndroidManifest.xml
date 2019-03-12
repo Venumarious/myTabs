@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.eduadministrative.mytabs">
 
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".MainActivity"
             android:label="Notices">
@@ -18,17 +22,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TabFragment1" />
-        <activity android:name=".TabFragment2" />
-        <activity android:name=".TabFragment3" />
 
         <activity android:name="com.TabExample2.New_MainActivity" />
         <activity android:name="com.TabExample2.InboxActivity" />
         <activity android:name="com.TabExample2.OutboxActivity" />
-        <activity android:name="com.TabExample2.ProfileActivity"></activity>
-    </application>
+        <activity android:name="com.TabExample2.ProfileActivity" />
 
-    <!-- Internet Permissions -->
-    <uses-permission android:name="android.permission.INTERNET" />
+        <activity android:name="com.TabExample3.MainActivity2" />
+    </application>
 
 </manifest>

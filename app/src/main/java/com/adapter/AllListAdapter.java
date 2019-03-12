@@ -75,7 +75,8 @@ public class AllListAdapter extends BaseAdapter {
 
         LinearLayout llClr =view.findViewById(R.id.llClr);
         if (p.clr.equals("#ffffff")){
-            llClr.setVisibility(View.GONE);
+            //llClr.setVisibility(View.GONE);
+            llClr.setBackgroundColor(Color.parseColor(p.clr) );
         }else{
             llClr.setBackgroundColor(Color.parseColor(p.clr) );
         }
@@ -86,5 +87,4 @@ public class AllListAdapter extends BaseAdapter {
     AllListClass getProduct(int position) {
         return ((AllListClass) getItem(position));
     }
-
 }

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#7a7c99</color>
+    <color name="colorPrimaryDark">#4e4f5d</color>
     <color name="colorAccent">#D81B60</color>
 
     <color name="backClr">#e5e5e5</color>
     <color name="btnColor">#1dcac4</color>
     <color name="hmBack">#fff1c9</color>
     <color name="chatSettingsBackground">#bbdefb</color>
-    <color name="goodRemark">#4baa65</color>
+    <color name="goodRemark">#63b94a</color>
     <color name="badRemark">#ff5a5a</color>
     <color name="noRemark">#ffffff</color>
     <color name="hoverClr">#18eee7</color>

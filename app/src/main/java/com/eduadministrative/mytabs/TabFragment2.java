@@ -43,7 +43,6 @@ public class TabFragment2 extends Fragment {
         return view;
     }
 
-
     @Override
     public void onResume() {
         super.onResume();
@@ -58,7 +57,6 @@ public class TabFragment2 extends Fragment {
             protected void onPreExecute() {
                 super.onPreExecute();
                 prgPndng.setVisibility(View.VISIBLE);
-
             }
 
             @Override
@@ -105,7 +103,9 @@ public class TabFragment2 extends Fragment {
             lstView.setVisibility(View.VISIBLE);
             noPostLayout.setVisibility(View.GONE);
         }
-        boxAdapter = new Confirm_ListAdapter(getActivity(), confirm_ListClass);
-        lstView.setAdapter(boxAdapter);
+        try {
+            boxAdapter = new Confirm_ListAdapter(getActivity(), confirm_ListClass);
+            lstView.setAdapter(boxAdapter);
+        }catch (Exception e) {}
     }
 }

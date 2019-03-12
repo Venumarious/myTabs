@@ -56,8 +56,6 @@ public class TabFragment1 extends Fragment implements View.OnClickListener {
         noPostLayout = (LinearLayout) view.findViewById(R.id.noPostLayout);
         noPostLayout.setVisibility(View.GONE);
 
-        getJSON_Brnch("http://eduadministrative.com/Get_Branch.aspx?schId=9&logId=152");
-
         spnBrnch.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -84,7 +82,7 @@ public class TabFragment1 extends Fragment implements View.OnClickListener {
     @Override
     public void onResume() {
         super.onResume();
-
+        getJSON_Brnch("http://eduadministrative.com/Get_Branch.aspx?schId=9&logId=152");
     }
 
     @Override
