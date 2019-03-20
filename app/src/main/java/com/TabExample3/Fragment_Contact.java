@@ -19,7 +19,7 @@ public class Fragment_Contact extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.contact_fragment, container, false);
-        Toast.makeText(getContext(), "Contact Page", Toast.LENGTH_LONG).show();
+        Toast.makeText(getContext(), "Changed this toast just to see that it changes on GitHub", Toast.LENGTH_LONG).show();
         return v;
     }
 }
