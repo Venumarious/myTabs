@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="com.TabExample3.MainActivity2"
+            android:name=".MainActivity"
             android:label="Notices">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,6 +27,6 @@
         <activity android:name="com.TabExample2.OutboxActivity" />
         <activity android:name="com.TabExample2.ProfileActivity" />
 
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.TabExample3.MainActivity2" />
     </application>
 </manifest>

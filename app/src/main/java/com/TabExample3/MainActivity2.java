@@ -25,8 +25,8 @@ public class MainActivity2 extends AppCompatActivity {
         viewpager = (ViewPager) findViewById(R.id.viewpager);
         pagerAdapter= new ViewPagerAdapter(getSupportFragmentManager());
 
-        pagerAdapter.addFragment(new Fragment_Call(),"Contact");
-        pagerAdapter.addFragment(new Fragment_Contact(),"Call");
+        pagerAdapter.addFragment(new Fragment_Contact(),"Contact");
+        pagerAdapter.addFragment(new Fragment_Call(),"Call");
         pagerAdapter.addFragment(new Fragment_Fav(),"Favourite");
 
         viewpager.setAdapter(pagerAdapter);

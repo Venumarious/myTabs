@@ -4,12 +4,12 @@ public class Contact {
 
     private String name;
     private String phone;
-    private String photo;
+    private int photo;
 
     public Contact() {
     }
 
-    public Contact(String name, String phone, String photo) {
+    public Contact(String name, String phone, int photo) {
         this.name = name;
         this.phone = phone;
         this.photo = photo;
@@ -25,7 +25,7 @@ public class Contact {
         return phone;
     }
 
-    public String getPhoto() {
+    public int getPhoto() {
         return photo;
     }
 
@@ -38,7 +38,7 @@ public class Contact {
         this.phone = phone;
     }
 
-    public void setPhoto(String photo) {
+    public void setPhoto(int photo) {
         this.photo = photo;
     }
 }
