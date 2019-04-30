@@ -50,5 +50,8 @@ public class Fragment_Contact extends Fragment {
         lstContact.add(new Contact("Junaid Shaikh", "1234567890" , R.drawable.icon_profile));
         lstContact.add(new Contact("Wasiullah Khan", "1234567890" , R.drawable.icon_profile));
         lstContact.add(new Contact("Rajesh Dhumal", "1234567890" , R.drawable.icon_profile));
+        lstContact.add(new Contact("Rajesh Dhumal", "1234567890" , R.drawable.icon_profile));
+        lstContact.add(new Contact("Rajesh Dhumal", "1234567890" , R.drawable.icon_profile));
+        lstContact.add(new Contact("Rajesh Dhumal", "1234567890" , R.drawable.icon_profile));
     }
 }
